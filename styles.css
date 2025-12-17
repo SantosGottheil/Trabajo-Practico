@@ -8,3 +8,15 @@
 :root {
 	--primary-font: "Roboto", sans-serif;
 }
+
+body {
+	background-color: #0a9c6f;
+}
+
+.container-principal {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	max-width: 1100px;
+	background-color: white;
+	margin: auto;
+}
