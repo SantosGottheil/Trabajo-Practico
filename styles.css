@@ -15,8 +15,86 @@ body {
 
 .container-principal {
 	display: grid;
-	grid-template-columns: 1fr 1fr;
+	grid-template-columns: 320px 1fr;
 	max-width: 1100px;
 	background-color: white;
 	margin: auto;
+	height: 90vh;
+	color:white;
+}
+
+.seccion-izquierda {
+	background-color: #121b22;
+}
+
+.header-izquierdo {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.perfil {
+	display: flex;
+	align-items: center;
+}
+.nombre-perfil{
+	margin-left: 10px;
+}
+
+.boton {
+	background-color: #121b22;
+	border: none;
+	margin-right: 10px;
+}
+
+.buscador {
+	background-color: #1f2c34;
+	border: none;
+	height:40px;
+	margin-top: 10px;
+	margin-left: 10px;
+	border-radius: 10px;
+	padding:5px;
+	width: 300px;
+}
+
+.chat-individual1 {
+	border-left: solid;
+	border-left-color: #2dca7a;
+	display: flex;
+	align-items: center;
+	padding-top: 10px;
+}
+
+.chat-individual{
+	display: flex;
+	align-items: center;
+	padding-top: 10px;
+}
+
+.nombre-mensaje{
+	padding-top: 10px;
+	padding-left: 10px;
+}
+
+.mensaje-minimizado {
+	font-size: 14px;
+	padding-left: 5px;
+	padding-top: 5px;
+}
+
+button {
+	border-radius: 50%;
+}
+
+img {
+	width: 50px;
+	border-radius: 50%;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+
+
+ul {
+	list-style-type: none;
 }
