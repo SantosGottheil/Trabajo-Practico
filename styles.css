@@ -21,8 +21,9 @@ body {
 	margin: auto;
 	height: 90vh;
 	color:white;
-	margin-top: 40px;
+	margin-top: 20px;
 	border-radius: 10px;
+	overflow: hidden;
 }
 
 .seccion-izquierda {
@@ -49,6 +50,10 @@ body {
 	background-color: #121b22;
 	border: none;
 	margin-right: 10px;
+}
+
+.boton:hover{
+	background-color: #273642;
 }
 
 .buscador {
@@ -130,13 +135,15 @@ body {
 }
 
 .footer-derecho{
-	margin-top: 230px;
 	text-align: center;
+	display: flex;
+	margin-top: 150px;
 }
 
 .boton-clip{
 	border:none;
-	margin-right: 5px;
+	margin-left: 20px;
+	margin-right: 20px;
 }
 
 .boton-send{
@@ -144,6 +151,7 @@ body {
 	background-color: #138b80;
 	border-radius: 30%;
 	padding: 5px;
+	margin-left: 20px;
 }
 
 button {
@@ -167,4 +175,19 @@ input {
 	height:40px;
 	border-radius: 10px;
 	border: none;
+}
+
+@media (max-width: 700px) {
+	.mensaje-izquierda {
+		width:auto;
+	}
+	.mensaje-derecha {
+		width: auto;
+	}
+}
+
+@media (max-width:400px) {
+	.seccion-izquierda{
+		display: none;
+	}
 }
