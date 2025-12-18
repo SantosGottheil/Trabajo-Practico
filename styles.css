@@ -21,10 +21,14 @@ body {
 	margin: auto;
 	height: 90vh;
 	color:white;
+	margin-top: 40px;
+	border-radius: 10px;
 }
 
 .seccion-izquierda {
 	background-color: #121b22;
+	border-bottom-left-radius: 10px;
+	border-top-left-radius: 10px;
 }
 
 .header-izquierdo {
@@ -83,6 +87,65 @@ body {
 	padding-top: 5px;
 }
 
+.seccion-derecha {
+	color:black;
+}
+
+.header-derecho {
+	background-color: #fefff6;
+	border-bottom: solid;
+	border-bottom-color: #dfdfe1;
+	display: flex;
+	align-items: center;
+	height:80px;
+	border-top-right-radius: 10px;
+}
+
+.mensaje-izquierda {
+	width:320px;
+	height:50px;
+	padding:10px;
+	margin-top: 30px;
+	margin-left: 10px;
+	background-color: #fefff6;
+	border-radius: 15px;
+	box-shadow: 0 1px 0 rgba(138,138,138,0.25);
+}
+
+.mensaje-derecha{
+	width:320px;
+	height:50px;
+	padding: 10px;
+	margin-top: 30px;
+	margin-right: 10px;
+	background-color: #a6dab7;
+	border-radius: 15px;
+	box-shadow: 0 1px 0 rgba(138,138,138,0.25);
+	margin-left: auto;
+}
+
+.hora-mensaje{
+	float: right;
+	font-size: 14px;
+}
+
+.footer-derecho{
+	margin-top: 230px;
+	text-align: center;
+}
+
+.boton-clip{
+	border:none;
+	margin-right: 5px;
+}
+
+.boton-send{
+	border:none;
+	background-color: #138b80;
+	border-radius: 30%;
+	padding: 5px;
+}
+
 button {
 	border-radius: 50%;
 }
@@ -97,4 +160,11 @@ img {
 
 ul {
 	list-style-type: none;
+}
+
+input {
+	width:80%;
+	height:40px;
+	border-radius: 10px;
+	border: none;
 }
